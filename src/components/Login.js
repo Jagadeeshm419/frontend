@@ -49,7 +49,7 @@ const Login = () => {
 
 //Send Request:
   const sendReq = async () => {
-    const result = await axios .post("http://localhost:2000/api/login", {
+    const result = await axios.post("http://localhost:2000/api/login", {
       
       email : inputs.email,
       password : inputs.password
